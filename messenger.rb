@@ -1,6 +1,8 @@
 require "em-synchrony"
 require 'em-synchrony/em-hiredis'
 require 'em-websocket'
+require 'em-hiredis'
+require 'redis-em-mutex'
 require 'json'
 require "./config/config"
 require "./lib/redis"

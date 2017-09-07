@@ -1,6 +1,3 @@
-require 'em-hiredis'
-require 'redis-em-mutex'
-
 module RedisConnection
   # This is the magical bit that gets mixed into your classes
   def redis

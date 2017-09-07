@@ -13,6 +13,11 @@ GEM
     hiredis (0.4.5)
     http_parser.rb (0.5.3)
     json (2.0.1)
+    redis (3.3.3)
+    redis-em-mutex (0.3.1)
+      eventmachine (>= 1.0.0.beta.1)
+      hiredis (~> 0.4.5)
+      redis (>= 3.0.2)
 
 PLATFORMS
   ruby
@@ -22,6 +27,7 @@ DEPENDENCIES
   em-synchrony
   em-websocket
   json
+  redis-em-mutex
 
 BUNDLED WITH
    1.12.5
